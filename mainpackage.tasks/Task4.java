@@ -55,7 +55,7 @@ public class Task4 {
 			value /= 28;
 			for(int i = 0; i <= 27; i++) {
 				if(value == reqs.get(i)) {
-					return null;
+					return message;
 				} else if(value > reqs.get(i)) {
 					occurence++;
 				}
